@@ -1,0 +1,13 @@
+.layout-container{
+    display: flex;
+    flex: 1;
+    height: 100vh;
+  
+}
+
+.main-content{
+    flex: 1;
+    overflow: hidden;
+    justify-items: center;
+    align-content: center;
+}

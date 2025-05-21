@@ -1,0 +1,28 @@
+.ContactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    background: rgb(248, 243, 237);
+    border-radius: 45px;
+    padding: 3rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    
+
+     
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+
+        label {
+        color: rgb(223, 150, 150);
+        margin-top: 7px;
+        }
+        input {
+            border-color: rgb(223, 150, 150);
+            border-radius: 4px;
+            padding: 0.7rem;
+        }
+    }
+}

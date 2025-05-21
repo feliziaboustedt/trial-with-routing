@@ -1,0 +1,18 @@
+.header {
+    height: 100dvh;
+    background-color: rgb(240, 233, 225);
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    clip-path: ellipse(85% 100% at left);
+   
+
+    h2 {
+        font-size: 60px;
+        margin: 0;
+        margin-left: 0.5rem;
+        -webkit-text-stroke: 1px rgb(223, 150, 150);
+        -webkit-text-fill-color: rgb(240, 233, 225) ;
+    }
+}

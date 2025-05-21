@@ -1,0 +1,26 @@
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+  gap: 1rem;
+
+  li {
+    padding: 1rem;
+  }
+
+  li:hover {
+    border: 1px dotted rgb(223, 150, 150);
+    border-radius: 4px;
+    margin: 0;
+    padding: 0.7rem;
+  }
+
+  a{
+    font-size: 20px;
+  }
+
+    .active {
+    /* border: 1px dotted rgb(223, 150, 150); */
+    border-bottom: 2px solid rgb(223, 150, 150);
+  }
+}
